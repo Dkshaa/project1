@@ -23,7 +23,7 @@ portfolio/<br>
 |__style.css<br>
 
 <h1>Future Improvements<h1>
-Integrate backend for contact form<br>
+Integrate with backend for form<br>
 Add more projects<br>
 Improve accessibility<br><hr>
 
