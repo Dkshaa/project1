@@ -11,10 +11,10 @@ Contact form<br><hr>
 
 <h1>Screenshots</h1>
 <p align="center">
-  <img src="./images/Hero.png" width="250"/>
+  <img src="../Portfolio /images/Hero.png" width="250"/>
 </p>
 <p align="center">
-  <img src="./images/Projects.png" width="250"/>
+  <img src="../Portfolio /images/Projects.png" width="250"/>
 </p>
 
 <p align="center">
