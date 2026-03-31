@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diksha Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!--Font Awesome Fonts For Social Media Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <!--header Section-->
+    <header id="navbar">
+      <div class="nav-container">
+        
+        <h2 class="logo">Diksha<span>'</span>s <span>Portfolio</span> </h2>
+    
+        <nav class="nav-links">
+          <a href="./index.html">Home</a>
+          <a href="#hero">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact" >Contact</a>
+        </nav>
+    
+      </div>
+    </header>
+    
+    <!--Hero Section-->
+    <section id="hero" class="hero">
+      <div class="hero-left">
+        <h1>
+          Hi, I'm <span>Diksha</span>
+        </h1>
+    
+        <p>
+          I design and develop modern
+           responsive websites using HTML and CSS.
+        </p>
+      <div class="hero-buttons">
+          <a href="./images/myresume.docx" download class="btn primary">
+            Download Resume
+          </a>
+        <button onClick="alert('Hire Me If You Liked My Resume')" class="btn secondary">
+            Hire Me
+          </button>
+        </div>
+    
+      </div>
+    
+      <div class="hero-right">
+        <img src="./images/myimage.png" alt="Diksha profile photo">
+      </div>
+    </section>
+   
+    <!--For Projects-->
+    <section id="projects">
+      <h2 id="h2">My Projects</h2>
+
+      <article class="grid-container">
+        <div class="grid-card">
+          <h4>Ecommerce Website</h4>
+          <p>
+            This is an ecommerce website where users can choose the electrical goods of their choices and enjoy.
+
+
+          </p>
+          <a href="https://github.com/Dkshaa" target="_blank" class="btn"
+            > 🔗 View on GitHub</a>
+          
+        </div>
+        <div class="grid-card">
+          <h4>Quiz Answer</h4>
+          <p>
+            Shows questions and gives multiple choices (MCQs)from which user have to guess.Lets the user pick an answer.
+          </p>
+          <a href="https://github.com/Dkshaa" target="_blank" class="btn"
+            > 🔗 View on GitHub</a></a
+          >
+        </div>
+        <div class="grid-card">
+          <h4>Random color generator</h4>
+          <p>
+            Generates a random color and displays it as the background.Shows the color code (like #A3F4D2)
+          </p>
+          <a href="https://github.com/Dkshaa" target="_blank" class="btn"
+            > 🔗 View on GitHub</a></a
+          >
+        </div>
+        
+      </article>
+    </section>
+    
+<!--Skills Section-->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-grid-card">
+          <h4>Technical Skills 💻 </h4>
+          <ul>
+            <li>React </li>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>CSS </li>
+            <li>HTML </li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div class="skill-grid-card">
+          <h4>Learning Priority 📚</h4>
+          <ul>
+            <li>Java</li>
+            <li>React</li>
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!--contact section-->
+    <section id="contact">
+      <section class="contact-info">
+        <h2 class="contact-title">Get In Touch</h2>
+        <p class="contact-subtitle">Feel free to reach out anytime</p>
+      
+        <div class="contact-grid">
+          
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <h4>Location</h4>
+            <p>San Jose, USA</p>
+          </div>
+      
+          <div class="contact-card">
+            <div class="contact-icon">📧</div>
+            <h4>Email</h4>
+            <p>dikshakarki22@gmail.com</p>
+          </div>
+      
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <h4>Phone</h4>
+            <p>+1 510 456 3678</p>
+          </div>
+      
+        </div>
+      </section>
+      <hr>
+      <!--Form-->
+      <div class="form-container">
+        <form class="form">
+          <h2 class="form-title">Contact Form</h2>
+          <p class="form-subtitle">Please fill out the details below</p>
+      
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+      
+            <div class="form-group">
+              <label for="phone">Contact Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="5104563678"
+                minlength="10"
+                maxlength="10"
+                required
+              />
+            </div>
+      
+            <div class="form-group">
+              <label for="country">Select Your Country</label>
+              <select id="country" name="country" required>
+                <option value="">-- Choose your region --</option>
+                <option value="nepal">Nepal</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="us">United States</option>
+                <option value="japan">Japan</option>
+              </select>
+            </div>
+          </div>
+      
+          <div class="options-wrapper">
+            <div class="fieldset-box">
+              <fieldset>
+                <legend>Gender</legend>
+      
+                <label class="radio-option" for="male">
+                  <input type="radio" id="male" name="gender" value="male" />
+                  <span>Male</span>
+                </label>
+      
+                <label class="radio-option" for="female">
+                  <input type="radio" id="female" name="gender" value="female" />
+                  <span>Female</span>
+                </label>
+      
+                <label class="radio-option" for="other">
+                  <input type="radio" id="other" name="gender" value="other" />
+                  <span>Other</span>
+                </label>
+              </fieldset>
+            </div>
+      
+            <div class="fieldset-box">
+              <fieldset>
+                <legend>Skills / Interests</legend>
+      
+                <label class="check-option" for="java">
+                  <input type="checkbox" id="java" name="skills" value="Java" />
+                  <span>Java</span>
+                </label>
+      
+                <label class="check-option" for="react">
+                  <input type="checkbox" id="react" name="skills" value="React" />
+                  <span>React</span>
+                </label>
+      
+                <label class="check-option" for="javascript">
+                  <input
+                    type="checkbox"
+                    id="javascript"
+                    name="skills"
+                    value="JavaScript"
+                  />
+                  <span>JavaScript</span>
+                </label>
+              </fieldset>
+            </div>
+          </div>
+      
+          <div class="form-group full-width">
+            <label for="message">Your Feedback / Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              placeholder="Write your feedback here..."
+              required
+            ></textarea>
+          </div>
+      
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+     
+    </section>
+    <hr>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="footer-container">
+        
+        <h3 class="footer-title">Connect With Me</h3>
+        <p class="footer-text">Feel free to reach out through social platforms</p>
+    
+        <div class="social-links">
+          <a href="https://github.com/Dkshaa" target="_blank" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/diksha-karki/" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/me_dikshaaa" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          
+        </div>
+    
+        <p class="footer-copy">© 2026 Diksha | All Rights Reserved</p>
+    
+      </div>
+    </footer>
+    
+  </body>
+</html>
