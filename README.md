@@ -22,7 +22,7 @@ portfolio/<br>
 |--script.js<br>
 |__style.css<br>
 
-<h1>Future Improvements<h1>
+<h1>Future Improvements</h1>
 Integrate with backend for form<br>
 Add more projects<br>
 Improve accessibility<br><hr>
