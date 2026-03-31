@@ -11,14 +11,17 @@ Contact form<br><hr>
 
 <h1>Screenshots</h1>
 <p align="center">
-  <img src="./images/Hero.heic" width="700"/>
+  <img src="./images/Hero.png" width="700"/>
 </p>
 <p align="center">
-  <img src="./images/Form.heic" width="700"/>
+  <img src="./images/Projects.png" width="700"/>
 </p>
 
 <p align="center">
-  <img src="./images/Get in touch.heic" width="250"/>
+  <img src="./images/GetInTouch.png" width="250"/>
+</p>
+<p align="center">
+  <img src="./images/Footer" width="700"/>
 </p>
 
 <h1>Project Structure</h1>
