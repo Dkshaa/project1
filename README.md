@@ -1,4 +1,4 @@
-<h1>Personal Portfolio Websit</h1>
+<h1>Personal Portfolio Website</h1>
 Welcome to my personal portfolio website!<br>
 This project showcases my skills,projects and experience as a web developer.
 
@@ -12,15 +12,15 @@ Contact form<br><hr>
 <h1>Screenshots</h1>
 
 <h1>Project Structure</h1>
-portfolio/
-|
-|-images/
-    |--myimage.png
-    |__myresume
-|--index.html
-|--README.md
-|--script.js
-|__style.css
+portfolio/<br>
+|<br>
+|-images/<br>
+    |--myimage.png<br>
+    |__myresume<br>
+|--index.html<br>
+|--README.md<br>
+|--script.js<br>
+|__style.css<br>
 
 <h1>Future Improvements<h1>
 Integrate backend for contact form<br>
